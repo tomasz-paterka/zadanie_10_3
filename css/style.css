@@ -2,6 +2,7 @@
 	border: 1px solid black;
 }*/
 .container {
+  position: relative;
   width: 600px;
   height: 400px;
   overflow: hidden;
@@ -23,6 +24,39 @@
 
 .container li img {
   width: 100%;
+}
+
+.control-next,
+.control-prev {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  width: 50px;
+  cursor: pointer;
+}
+
+.control-next i,
+.control-prev i {
+  width: 100%;
+}
+
+.control-next i:hover,
+.control-prev i:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.control-next {
+  right: 0;
+}
+
+.control-prev {
+  left: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

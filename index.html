@@ -6,6 +6,7 @@
 	<meta content="width=device-width, initial-scale=1" name="viewport">
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta content="" name="description">
+	<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet" type="text/css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<title>JQuery 10_3</title>
@@ -14,22 +15,27 @@
 <body>
 	<div id="carousel" class="container">
 		<ul>
-			<li>
+			<li class="mySlides">
 				<img src="http://photo.foter.com/photos/398/food-fruit-raspberries-strawberry-fruit.jpg">
 			</li>
-			<li>
+			<li class="mySlides">
 				<img src="http://photo.foter.com/photos/398/street-night-sign.jpg">
 			</li>
-			<li>
+			<li class="mySlides">
 				<img src="http://photo.foter.com/photos/398/table-twigs-foods.jpg">
 			</li>
-			<li>
+			<li class="mySlides">
 				<img src="http://photo.foter.com/photos/398/rice-lids-chilly.jpg">
 			</li>
-			<li>
+			<li class="mySlides">
 				<img src="http://photo.foter.com/photos/398/bacon-food-pancake.jpg">
 			</li>
 		</ul>
+		<a id="carousel-control-next" class="control-next" onclick="plusSlides(1)"><i class="fas fa-angle-right"></i></a>
+		<a id="carousel-control-prev" class="control-prev" onclick="plusSlides(-1)"><i class="fas fa-angle-left"></i></a>
+	</div>
+	<div class="">
+		
 	</div>
 	<script type="text/javascript" src="js/script.js"></script>
 </body>
